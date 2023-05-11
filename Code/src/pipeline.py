@@ -4,10 +4,10 @@ import pandas as pd
 import os 
 import json
 
-src_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/code/src'
-data_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/data/'
+src_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/code/src'
+data_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/data/'
 modules_dir = src_dir + '/modules'
-params_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/code/params/'
+params_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/code/params/'
 
 # Reading Raw Data 
 # df = pd.read_pickle(data_dir + 'novo_features_prescreen_2022-12-09.pkl')

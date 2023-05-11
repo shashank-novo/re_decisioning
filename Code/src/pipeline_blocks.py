@@ -17,21 +17,21 @@ import pandas as pd
 import os 
 import json
 
-src_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/code/src'
-data_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/data/'
+src_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/code/src'
+data_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/data/'
 modules_dir = src_dir + '/modules'
-params_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/code/params/'
+params_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/code/params/'
 
 
 
 # Opening Params Json File
-params_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/code/params/'
+params_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/code/params/'
 f = open(params_dir + 'params.txt')
 params_data = json.load(f)
 print(f"params file loaded ..")
 
 # import modules
-src_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/code/src'
+src_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/code/src'
 sys.path.insert(0, src_dir)
 from utils import Utils
 
@@ -39,7 +39,7 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler, RobustScaler, No
 
 
 # import modules
-modules_dir = '/Users/shashankgupta/Documents/code/git_project/re_decisioning/code/src/modules'
+modules_dir = '/Users/shashankgupta/Documents/code/git_project/redec/re_decisioning/code/src/modules'
 sys.path.insert(0, modules_dir)
 from preprocess import Convert, MissingValues, Outlier, FeatureSelection
 from transform import Scaler, Transform, Selection
