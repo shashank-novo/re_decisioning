@@ -10,4 +10,8 @@ main.ipynb </br>
 executor.ipynb (hyperparameter tuning)
 
 #### Scoring - 
-scoring.ipynb
+scoring_original_dataset.ipynb </br>
+scoring_new_dataset.ipynb
+
+#### model ONNX file - 
+model_onnx.ipynb
