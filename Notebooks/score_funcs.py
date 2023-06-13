@@ -59,13 +59,13 @@ class Score:
 
         # define model probability bins
         def buckets(x):
-            if x > 0.58:
+            if x > 0.6:
                 return 1
             if x > 0.46:
                 return 2
-            if x > 0.35:
+            if x > 0.31:
                 return 3
-            if x > 0.20:
+            if x > 0.08:
                 return 4
             return 5
 
